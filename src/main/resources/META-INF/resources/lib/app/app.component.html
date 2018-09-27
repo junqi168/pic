@@ -1,0 +1,65 @@
+﻿<nav
+        class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm bg-color transparent navbar-db bg-db stroke">
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link navbar-db bg-db" routerLink="/home">Home <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item active">
+                <a class="nav-link navbar-db bg-db" routerLink="/wallet">My Wallet<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link navbar-db bg-db" routerLink="/account">Token Sale <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link navbar-db bg-db" >List Properties</a>
+            </li>
+
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle navbar-db bg-db" href="#" id="navbarDropdown" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Resources
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item " >Investing 101</a>
+                    <a class="dropdown-item " href="#">Advanced Investing</a>
+                    <a class="dropdown-item " href="#">Frequently Asked Questions</a>
+
+                </div>
+            </li>
+        </ul>
+
+        &nbsp; &nbsp; &nbsp;
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> &nbsp; &nbsp;
+            <button class="btn btn-white-outline my-2 my-sm-0" type="submit"
+            >Sign In
+            </button>
+
+        </form>
+    </div>
+</nav>
+
+<main>
+    <router-outlet></router-outlet>
+</main>
+
+
+<footer>
+    <section once="" class="cid-qvQfX8F0kh" id="footer6-a" data-rv-view="167">
+
+        <div class="container">
+            <div class="media-container-row align-center mbr-white">
+                <div class="col-12">
+                    <p class="mbr-text mb-0 mbr-fonts-style display-7">
+                        © Copyright 2018 Property Investment Chain - All Rights Reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
